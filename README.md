@@ -1,4 +1,4 @@
-# (dubbo-springboot) SpringBoot + Dubbo + zookeeper 搭建简单分布式服务
+# SpringBoot + Dubbo + zookeeper 搭建简单分布式服务
 
 > springboot 简易集成 dubbo，使用 zookeeper 作为注册中心。
 
