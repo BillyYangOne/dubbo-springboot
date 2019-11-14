@@ -6,10 +6,33 @@
 
 ## 二、搭建 zookeeper 环境
 ### 1、下载安装包
+通过网站 [http://mirror.bit.edu.cn/apache/zookeeper/](http://mirror.bit.edu.cn/apache/zookeeper/) 下载安装包。
 ### 2、安装
-* 2.1、 windows 环境
-* 2.2、 linux 环境
-	
+* 2.1、 **windows 环境**
+
+启动 bin 下的 cmd 文件即可， zookeeper-3.4.14\bin\zkServer.cmd
+* 2.2、**linux 环境**
+
+1. 解压
+```
+tar -zxvf zookeeper-3.4.14.tar.gz
+```
+2. 进入 zookeeper 目录，创建 data 文件夹
+```
+mkdir data
+```
+3. 赋值 conf 目录下 zoo_sample.cfg 为 zoo.cfg
+```
+cp zoo_sample.cfg zoo.cfg
+```
+4. 修改 zoo.cfg 中的 data 属性
+```
+dataDir=/usr/local/zookeeper/data
+```
+5. 启动 zookeeper 
+```
+./zkServer.sh start
+```
 ## 三、springboot 集成 dubbo
 ### 1、项目目录结构
 ![目录结构](https://github.com/BillyYangOne/dubbo-springboot/blob/master/dubbo-interface/src/main/resources/image/structure.png)
