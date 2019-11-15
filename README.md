@@ -1,5 +1,7 @@
 # SpringBoot + Dubbo + zookeeper 搭建简单分布式服务
 
+[![](https://img.shields.io/github/issues/BillyYangOne/dubbo-springboot.svg)](https://github.com/BillyYangOne/dubbo-springboot/issues)  [![](https://img.shields.io/github/forks/BillyYangOne/dubbo-springboot.svg)](https://github.com/BillyYangOne/dubbo-springboot/network) [![](https://img.shields.io/github/stars/BillyYangOne/dubbo-springboot.svg)](https://github.com/BillyYangOne/dubbo-springboot/stargazers) 
+
 > springboot 简易集成 dubbo，使用 zookeeper 作为注册中心。
 
 ## 一、Dubbo 简介
